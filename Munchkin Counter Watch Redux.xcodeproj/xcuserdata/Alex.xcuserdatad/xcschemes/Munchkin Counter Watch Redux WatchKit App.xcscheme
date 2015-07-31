@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAD853551B6C2EAD0009A5FB"
+               BuildableName = "Munchkin Counter Watch Redux WatchKit App.app"
+               BlueprintName = "Munchkin Counter Watch Redux WatchKit App"
+               ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "FAD853221B6C2E9E0009A5FB"
                BuildableName = "Munchkin Counter Watch Redux.app"
                BlueprintName = "Munchkin Counter Watch Redux"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAD853371B6C2E9F0009A5FB"
-               BuildableName = "Munchkin Counter Watch ReduxTests.xctest"
-               BlueprintName = "Munchkin Counter Watch ReduxTests"
+               BlueprintIdentifier = "FAD8534B1B6C2EAD0009A5FB"
+               BuildableName = "Munchkin Counter Watch Redux WatchKit Extension.appex"
+               BlueprintName = "Munchkin Counter Watch Redux WatchKit Extension"
                ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAD853371B6C2E9F0009A5FB"
-               BuildableName = "Munchkin Counter Watch ReduxTests.xctest"
-               BlueprintName = "Munchkin Counter Watch ReduxTests"
-               ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAD853221B6C2E9E0009A5FB"
-            BuildableName = "Munchkin Counter Watch Redux.app"
-            BlueprintName = "Munchkin Counter Watch Redux"
+            BlueprintIdentifier = "FAD853551B6C2EAD0009A5FB"
+            BuildableName = "Munchkin Counter Watch Redux WatchKit App.app"
+            BlueprintName = "Munchkin Counter Watch Redux WatchKit App"
             ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Munchkin Counter Watch Redux">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAD853221B6C2E9E0009A5FB"
-            BuildableName = "Munchkin Counter Watch Redux.app"
-            BlueprintName = "Munchkin Counter Watch Redux"
+            BlueprintIdentifier = "FAD853551B6C2EAD0009A5FB"
+            BuildableName = "Munchkin Counter Watch Redux WatchKit App.app"
+            BlueprintName = "Munchkin Counter Watch Redux WatchKit App"
             ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAD853551B6C2EAD0009A5FB"
+            BuildableName = "Munchkin Counter Watch Redux WatchKit App.app"
+            BlueprintName = "Munchkin Counter Watch Redux WatchKit App"
+            ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Munchkin Counter Watch Redux">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAD853221B6C2E9E0009A5FB"
-            BuildableName = "Munchkin Counter Watch Redux.app"
-            BlueprintName = "Munchkin Counter Watch Redux"
+            BlueprintIdentifier = "FAD853551B6C2EAD0009A5FB"
+            BuildableName = "Munchkin Counter Watch Redux WatchKit App.app"
+            BlueprintName = "Munchkin Counter Watch Redux WatchKit App"
             ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAD853551B6C2EAD0009A5FB"
+            BuildableName = "Munchkin Counter Watch Redux WatchKit App.app"
+            BlueprintName = "Munchkin Counter Watch Redux WatchKit App"
+            ReferencedContainer = "container:Munchkin Counter Watch Redux.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

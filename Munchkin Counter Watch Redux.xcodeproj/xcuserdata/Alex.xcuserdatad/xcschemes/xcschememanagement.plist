@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Munchkin Counter Watch Redux WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Munchkin Counter Watch Redux.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>FAD853371B6C2E9F0009A5FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAD853551B6C2EAD0009A5FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

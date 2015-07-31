@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="15A225f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Munchkin_Counter_Watch_Redux_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="center" id="A8r-z1-0P9">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="1" textAlignment="center" id="tnx-Xy-wp7">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="32"/>
+                                    <variation key="device=watch38mm" alignment="center" verticalAlignment="top">
+                                        <fontDescription key="font" type="system" weight="semibold" pointSize="26"/>
+                                    </variation>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" verticalAlignment="bottom" id="m2y-wZ-YWo">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Level" textAlignment="center" id="On3-nO-hvJ">
+                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                </label>
+                                <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="F2f-Ep-LwQ">
+                                    <connections>
+                                        <action selector="subtractLevelButtonPressed" destination="AgC-eL-Hgc" id="7eg-k9-JqC"/>
+                                    </connections>
+                                </button>
+                                <label width="30" height="25" alignment="right" text="1" textAlignment="center" id="Ggi-ti-nfg"/>
+                                <button width="30" height="30" alignment="right" backgroundImage="Add2" id="Aji-Bz-Mee">
+                                    <connections>
+                                        <action selector="addLevelButtonPressed" destination="AgC-eL-Hgc" id="tD5-SP-t6X"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" verticalAlignment="bottom" id="jBb-4K-SNg">
+                            <items>
+                                <label width="30" height="25" alignment="right" text="0" textAlignment="center" id="usd-Pq-XPQ"/>
+                                <button width="30" height="30" alignment="right" backgroundImage="Add2" id="sis-Va-0gn">
+                                    <connections>
+                                        <action selector="addCombatButtonPressed" destination="AgC-eL-Hgc" id="wxp-07-wZe"/>
+                                    </connections>
+                                </button>
+                                <label height="12" alignment="left" verticalAlignment="center" text="Combat" textAlignment="center" id="L8u-BG-Npo">
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                </label>
+                                <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="tJG-L5-VHF">
+                                    <connections>
+                                        <action selector="subtractCombatButtonPressed" destination="AgC-eL-Hgc" id="faq-7M-n97"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" verticalAlignment="bottom" id="yAP-SD-IN6">
+                            <items>
+                                <label width="30" height="25" alignment="right" text="0" textAlignment="center" id="qwe-b7-smm"/>
+                                <button width="30" height="30" alignment="right" backgroundImage="Add2" id="UhL-OV-QCK">
+                                    <connections>
+                                        <action selector="addOneShotButtonPressed" destination="AgC-eL-Hgc" id="26R-4i-GEO"/>
+                                    </connections>
+                                </button>
+                                <label alignment="left" verticalAlignment="center" text="One Shot" textAlignment="center" numberOfLines="2" id="oti-HM-Ifj">
+                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                </label>
+                                <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="1r8-1z-rdw">
+                                    <connections>
+                                        <action selector="subtractOneShotButtonPressed" destination="AgC-eL-Hgc" id="AqE-gL-vWu"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" height="20" alignment="center" verticalAlignment="bottom" title="Clear" id="grx-fK-wlV">
+                            <connections>
+                                <action selector="clearButtonPressed" destination="AgC-eL-Hgc" id="VL1-G9-szF"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="combatLabel" destination="usd-Pq-XPQ" id="QFR-6h-jwR"/>
+                        <outlet property="levelLabel" destination="Ggi-ti-nfg" id="0iQ-Yt-gP6"/>
+                        <outlet property="oneShotLabel" destination="qwe-b7-smm" id="aN5-pu-AKt"/>
+                        <outlet property="totalLabel" destination="tnx-Xy-wp7" id="N3Z-b3-KLf"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
