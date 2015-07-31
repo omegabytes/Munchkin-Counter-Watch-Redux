@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD853291B6C2E9F0009A5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD853281B6C2E9F0009A5FB /* AppDelegate.swift */; };
+		FAD8532B1B6C2E9F0009A5FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8532A1B6C2E9F0009A5FB /* ViewController.swift */; };
+		FAD8532E1B6C2E9F0009A5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8532C1B6C2E9F0009A5FB /* Main.storyboard */; };
+		FAD853301B6C2E9F0009A5FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD8532F1B6C2E9F0009A5FB /* Images.xcassets */; };
+		FAD853331B6C2E9F0009A5FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD853311B6C2E9F0009A5FB /* LaunchScreen.xib */; };
+		FAD8533F1B6C2E9F0009A5FB /* Munchkin_Counter_Watch_ReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8533E1B6C2E9F0009A5FB /* Munchkin_Counter_Watch_ReduxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD853391B6C2E9F0009A5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD8531B1B6C2E9E0009A5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD853221B6C2E9E0009A5FB;
+			remoteInfo = "Munchkin Counter Watch Redux";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD853231B6C2E9F0009A5FB /* Munchkin Counter Watch Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Munchkin Counter Watch Redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD853271B6C2E9F0009A5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD853281B6C2E9F0009A5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD8532A1B6C2E9F0009A5FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD8532D1B6C2E9F0009A5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD8532F1B6C2E9F0009A5FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAD853321B6C2E9F0009A5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAD853381B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Munchkin Counter Watch ReduxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8533D1B6C2E9F0009A5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD8533E1B6C2E9F0009A5FB /* Munchkin_Counter_Watch_ReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Munchkin_Counter_Watch_ReduxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD853201B6C2E9E0009A5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD853351B6C2E9F0009A5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD8531A1B6C2E9E0009A5FB = {
+			isa = PBXGroup;
+			children = (
+				FAD853251B6C2E9F0009A5FB /* Munchkin Counter Watch Redux */,
+				FAD8533B1B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests */,
+				FAD853241B6C2E9F0009A5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD853241B6C2E9F0009A5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD853231B6C2E9F0009A5FB /* Munchkin Counter Watch Redux.app */,
+				FAD853381B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD853251B6C2E9F0009A5FB /* Munchkin Counter Watch Redux */ = {
+			isa = PBXGroup;
+			children = (
+				FAD853281B6C2E9F0009A5FB /* AppDelegate.swift */,
+				FAD8532A1B6C2E9F0009A5FB /* ViewController.swift */,
+				FAD8532C1B6C2E9F0009A5FB /* Main.storyboard */,
+				FAD8532F1B6C2E9F0009A5FB /* Images.xcassets */,
+				FAD853311B6C2E9F0009A5FB /* LaunchScreen.xib */,
+				FAD853261B6C2E9F0009A5FB /* Supporting Files */,
+			);
+			path = "Munchkin Counter Watch Redux";
+			sourceTree = "<group>";
+		};
+		FAD853261B6C2E9F0009A5FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD853271B6C2E9F0009A5FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD8533B1B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8533E1B6C2E9F0009A5FB /* Munchkin_Counter_Watch_ReduxTests.swift */,
+				FAD8533C1B6C2E9F0009A5FB /* Supporting Files */,
+			);
+			path = "Munchkin Counter Watch ReduxTests";
+			sourceTree = "<group>";
+		};
+		FAD8533C1B6C2E9F0009A5FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8533D1B6C2E9F0009A5FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD853221B6C2E9E0009A5FB /* Munchkin Counter Watch Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD853421B6C2E9F0009A5FB /* Build configuration list for PBXNativeTarget "Munchkin Counter Watch Redux" */;
+			buildPhases = (
+				FAD8531F1B6C2E9E0009A5FB /* Sources */,
+				FAD853201B6C2E9E0009A5FB /* Frameworks */,
+				FAD853211B6C2E9E0009A5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Munchkin Counter Watch Redux";
+			productName = "Munchkin Counter Watch Redux";
+			productReference = FAD853231B6C2E9F0009A5FB /* Munchkin Counter Watch Redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD853371B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD853451B6C2E9F0009A5FB /* Build configuration list for PBXNativeTarget "Munchkin Counter Watch ReduxTests" */;
+			buildPhases = (
+				FAD853341B6C2E9F0009A5FB /* Sources */,
+				FAD853351B6C2E9F0009A5FB /* Frameworks */,
+				FAD853361B6C2E9F0009A5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD8533A1B6C2E9F0009A5FB /* PBXTargetDependency */,
+			);
+			name = "Munchkin Counter Watch ReduxTests";
+			productName = "Munchkin Counter Watch ReduxTests";
+			productReference = FAD853381B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD8531B1B6C2E9E0009A5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MentalCake;
+				TargetAttributes = {
+					FAD853221B6C2E9E0009A5FB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FAD853371B6C2E9F0009A5FB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FAD853221B6C2E9E0009A5FB;
+					};
+				};
+			};
+			buildConfigurationList = FAD8531E1B6C2E9E0009A5FB /* Build configuration list for PBXProject "Munchkin Counter Watch Redux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD8531A1B6C2E9E0009A5FB;
+			productRefGroup = FAD853241B6C2E9F0009A5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD853221B6C2E9E0009A5FB /* Munchkin Counter Watch Redux */,
+				FAD853371B6C2E9F0009A5FB /* Munchkin Counter Watch ReduxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD853211B6C2E9E0009A5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD8532E1B6C2E9F0009A5FB /* Main.storyboard in Resources */,
+				FAD853331B6C2E9F0009A5FB /* LaunchScreen.xib in Resources */,
+				FAD853301B6C2E9F0009A5FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD853361B6C2E9F0009A5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD8531F1B6C2E9E0009A5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD8532B1B6C2E9F0009A5FB /* ViewController.swift in Sources */,
+				FAD853291B6C2E9F0009A5FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD853341B6C2E9F0009A5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD8533F1B6C2E9F0009A5FB /* Munchkin_Counter_Watch_ReduxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD8533A1B6C2E9F0009A5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD853221B6C2E9E0009A5FB /* Munchkin Counter Watch Redux */;
+			targetProxy = FAD853391B6C2E9F0009A5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD8532C1B6C2E9F0009A5FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD8532D1B6C2E9F0009A5FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD853311B6C2E9F0009A5FB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD853321B6C2E9F0009A5FB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD853401B6C2E9F0009A5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD853411B6C2E9F0009A5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD853431B6C2E9F0009A5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Munchkin Counter Watch Redux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD853441B6C2E9F0009A5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Munchkin Counter Watch Redux/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD853461B6C2E9F0009A5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Munchkin Counter Watch ReduxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Munchkin Counter Watch Redux.app/Munchkin Counter Watch Redux";
+			};
+			name = Debug;
+		};
+		FAD853471B6C2E9F0009A5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Munchkin Counter Watch ReduxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Munchkin Counter Watch Redux.app/Munchkin Counter Watch Redux";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD8531E1B6C2E9E0009A5FB /* Build configuration list for PBXProject "Munchkin Counter Watch Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD853401B6C2E9F0009A5FB /* Debug */,
+				FAD853411B6C2E9F0009A5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD853421B6C2E9F0009A5FB /* Build configuration list for PBXNativeTarget "Munchkin Counter Watch Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD853431B6C2E9F0009A5FB /* Debug */,
+				FAD853441B6C2E9F0009A5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD853451B6C2E9F0009A5FB /* Build configuration list for PBXNativeTarget "Munchkin Counter Watch ReduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD853461B6C2E9F0009A5FB /* Debug */,
+				FAD853471B6C2E9F0009A5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD8531B1B6C2E9E0009A5FB /* Project object */;
+}
