@@ -10,75 +10,93 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Munchkin_Counter_Watch_Redux_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" alignment="center" id="A8r-z1-0P9">
+                        <group width="1" height="1" alignment="left" layout="vertical" id="T4j-8v-5jQ">
                             <items>
-                                <label alignment="center" verticalAlignment="center" text="1" textAlignment="center" id="tnx-Xy-wp7">
-                                    <fontDescription key="font" type="system" weight="semibold" pointSize="32"/>
-                                    <variation key="device=watch38mm" alignment="center" verticalAlignment="top">
-                                        <fontDescription key="font" type="system" weight="semibold" pointSize="26"/>
-                                    </variation>
-                                </label>
+                                <group width="1" alignment="center" id="A8r-z1-0P9" userLabel="Total Group">
+                                    <items>
+                                        <button alignment="left" verticalAlignment="bottom" title="Clear" id="grx-fK-wlV">
+                                            <connections>
+                                                <action selector="clearButtonPressed" destination="AgC-eL-Hgc" id="VL1-G9-szF"/>
+                                            </connections>
+                                        </button>
+                                        <label width="64" alignment="center" text="1" textAlignment="center" id="tnx-Xy-wp7">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="32"/>
+                                            <variation key="device=watch38mm" alignment="center" verticalAlignment="top">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="26"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <separator alignment="left" id="oRj-vR-hi1"/>
+                                <group width="1" alignment="center" id="m2y-wZ-YWo" userLabel="Level Group">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="Level" textAlignment="center" id="On3-nO-hvJ">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="F2f-Ep-LwQ">
+                                            <connections>
+                                                <action selector="subtractLevelButtonPressed" destination="AgC-eL-Hgc" id="7eg-k9-JqC"/>
+                                            </connections>
+                                        </button>
+                                        <label width="25" height="25" alignment="right" text="1" textAlignment="center" id="Ggi-ti-nfg">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <button width="30" height="30" alignment="right" backgroundImage="Add2" id="Aji-Bz-Mee">
+                                            <connections>
+                                                <action selector="addLevelButtonPressed" destination="AgC-eL-Hgc" id="tD5-SP-t6X"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="6" right="6" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" alignment="center" id="jBb-4K-SNg" userLabel="Combat Group">
+                                    <items>
+                                        <label width="25" height="25" alignment="right" text="0" textAlignment="center" id="usd-Pq-XPQ">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <button width="30" height="30" alignment="right" backgroundImage="Add2" id="sis-Va-0gn">
+                                            <connections>
+                                                <action selector="addCombatButtonPressed" destination="AgC-eL-Hgc" id="wxp-07-wZe"/>
+                                            </connections>
+                                        </button>
+                                        <label alignment="left" verticalAlignment="center" text="Combat" textAlignment="center" minimumScaleFactor="0.90000000000000002" id="L8u-BG-Npo">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" pointSize="9"/>
+                                        </label>
+                                        <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="tJG-L5-VHF">
+                                            <connections>
+                                                <action selector="subtractCombatButtonPressed" destination="AgC-eL-Hgc" id="faq-7M-n97"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="6" right="6" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" alignment="center" id="yAP-SD-IN6" userLabel="One Shot Group">
+                                    <items>
+                                        <label width="25" height="25" alignment="right" text="0" textAlignment="center" id="qwe-b7-smm">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <button width="30" height="30" alignment="right" backgroundImage="Add2" id="UhL-OV-QCK">
+                                            <connections>
+                                                <action selector="addOneShotButtonPressed" destination="AgC-eL-Hgc" id="26R-4i-GEO"/>
+                                            </connections>
+                                        </button>
+                                        <label alignment="left" verticalAlignment="center" text="One Shot" textAlignment="center" numberOfLines="2" id="oti-HM-Ifj">
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="1r8-1z-rdw">
+                                            <connections>
+                                                <action selector="subtractOneShotButtonPressed" destination="AgC-eL-Hgc" id="AqE-gL-vWu"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="6" right="6" top="0.0" bottom="0.0"/>
+                                </group>
                             </items>
                         </group>
-                        <group width="1" alignment="center" verticalAlignment="bottom" id="m2y-wZ-YWo">
-                            <items>
-                                <label alignment="left" verticalAlignment="center" text="Level" textAlignment="center" id="On3-nO-hvJ">
-                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                </label>
-                                <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="F2f-Ep-LwQ">
-                                    <connections>
-                                        <action selector="subtractLevelButtonPressed" destination="AgC-eL-Hgc" id="7eg-k9-JqC"/>
-                                    </connections>
-                                </button>
-                                <label width="30" height="25" alignment="right" text="1" textAlignment="center" id="Ggi-ti-nfg"/>
-                                <button width="30" height="30" alignment="right" backgroundImage="Add2" id="Aji-Bz-Mee">
-                                    <connections>
-                                        <action selector="addLevelButtonPressed" destination="AgC-eL-Hgc" id="tD5-SP-t6X"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                        <group width="1" alignment="center" verticalAlignment="bottom" id="jBb-4K-SNg">
-                            <items>
-                                <label width="30" height="25" alignment="right" text="0" textAlignment="center" id="usd-Pq-XPQ"/>
-                                <button width="30" height="30" alignment="right" backgroundImage="Add2" id="sis-Va-0gn">
-                                    <connections>
-                                        <action selector="addCombatButtonPressed" destination="AgC-eL-Hgc" id="wxp-07-wZe"/>
-                                    </connections>
-                                </button>
-                                <label height="12" alignment="left" verticalAlignment="center" text="Combat" textAlignment="center" id="L8u-BG-Npo">
-                                    <fontDescription key="font" type="system" pointSize="9"/>
-                                </label>
-                                <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="tJG-L5-VHF">
-                                    <connections>
-                                        <action selector="subtractCombatButtonPressed" destination="AgC-eL-Hgc" id="faq-7M-n97"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                        <group width="1" alignment="center" verticalAlignment="bottom" id="yAP-SD-IN6">
-                            <items>
-                                <label width="30" height="25" alignment="right" text="0" textAlignment="center" id="qwe-b7-smm"/>
-                                <button width="30" height="30" alignment="right" backgroundImage="Add2" id="UhL-OV-QCK">
-                                    <connections>
-                                        <action selector="addOneShotButtonPressed" destination="AgC-eL-Hgc" id="26R-4i-GEO"/>
-                                    </connections>
-                                </button>
-                                <label alignment="left" verticalAlignment="center" text="One Shot" textAlignment="center" numberOfLines="2" id="oti-HM-Ifj">
-                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                </label>
-                                <button width="30" height="30" alignment="center" backgroundImage="Subtract2" id="1r8-1z-rdw">
-                                    <connections>
-                                        <action selector="subtractOneShotButtonPressed" destination="AgC-eL-Hgc" id="AqE-gL-vWu"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                        <button width="1" height="20" alignment="center" verticalAlignment="bottom" title="Clear" id="grx-fK-wlV">
-                            <connections>
-                                <action selector="clearButtonPressed" destination="AgC-eL-Hgc" id="VL1-G9-szF"/>
-                            </connections>
-                        </button>
                     </items>
                     <connections>
                         <outlet property="combatLabel" destination="usd-Pq-XPQ" id="QFR-6h-jwR"/>
@@ -88,6 +106,7 @@
                     </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="139" y="375"/>
         </scene>
     </scenes>
 </document>
